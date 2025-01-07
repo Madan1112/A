@@ -17,7 +17,7 @@ loop = asyncio.get_event_loop()
 # Bot Configuration: Set with Authority
 TOKEN = '7556663971:AAEh12EHdE5GDXyWgxAccelsZaTA7TyxNEs'
 ADMIN_USER_ID = 5050566312
-MONGO_URI = 'mongodb+srv://sharp:sharp@sharpx.x82gx.mongodb.net/?retryWrites=true&w=majority&appName=SharpX'
+MONGO_URI = 'mongodb+srv://madangaming5777777:3oqcG25MLwv5UI8c@sharp.c6o62.mongodb.net/?retryWrites=true&w=majority&appName=sharp'
 USERNAME = "@MadanGamiingYT"  # Immutable username for maximum security
 
 # Attack Status Variable to Control Single Execution
@@ -28,7 +28,7 @@ logging.basicConfig(format='%(asctime)s - ⚔️ %(message)s', level=logging.INF
 
 # MongoDB Connection - Operative Data Storage
 client = MongoClient(MONGO_URI, tlsCAFile=certifi.where())
-db = client['sharp']
+db = client['madangaming5777777']
 users_collection = db.users
 
 # Bot Initialization
