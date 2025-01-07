@@ -13,7 +13,7 @@ OWNER_ID = {5050566312}  # Replace with your owner IDs
 # Constants
 INVALID_PORTS = {8700, 20000, 443, 17500, 9031, 20002, 20001, 8080, 8086, 8011, 9030}
 MAX_TIME = 300
-COOLDOWN_TIME = 05
+COOLDOWN_TIME = 005
 thread = 150
 # Global variables
 last_attack_time = {}
